@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://emojicombos.com/files/img/emojis/open-book.png" width="100" />
-</div>
-
 # Python Learning from YouTube
 
 Welcome to the Python Learning from YouTube Channels repository! 🐍🎓 Here, you'll find code-along exercises and projects based on Python tutorials from various YouTube channels.
