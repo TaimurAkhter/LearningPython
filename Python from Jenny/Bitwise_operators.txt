@@ -1,0 +1,68 @@
+# 28th Oct 2023 Saturday
+# Time 8 : 14 PM
+
+# Bitwise operators
+# & and
+# | or
+# ^ xor
+# ~ not comparison
+# << left shift
+# >> right shift
+
+# ---bitwise and operator: & ---
+a = 5
+b = 4
+# both are 1 will 1 otherwise 0
+# a = 0101
+# b = 0100
+# a&b = 0100
+# now convert the above number into decimal the answer would be 4
+
+# ----bitwise or operator: | ----
+a = 5
+b = 4
+# It will give 0 if both are zero, if anyone is 1 It will give you 1
+# a    = 0101
+# b    = 0100
+# a & b = 0101
+# now convert the above number into decimal the answer would be 5
+
+# print(a & b)
+
+# ----bitwise xor operator: ^ -----
+a = 5
+b = 4
+# It will give 0 if both are same, if both different It will give you 1
+# a     = 0101
+# b     = 0100
+# a & b = 0001
+# now convert the above number into decimal the answer would be 1
+
+
+# ----bitwise not operator: ~ ----
+a = 6
+# a = 6
+# ~a will give you -7
+# Formula: -(n+1)
+# ~a = -(6+1) = -7
+
+
+# ----bitwise left shift operator: << -----
+# In left shift we gain bits we don't lose
+a = 5
+#Binary value of 5 = 0101      
+# 5<<2  = 010100     ||  # Formula
+#32 16 8 4 2 1       ||  # X<<n calculated as X*(2^n)
+# 0 1  0 1 0 0       ||  # 5* 2^2 = 5*4 
+# Answer is 20       ||  # Answer is 20
+
+
+# ----bitwise right shift operator: >> -----
+# In right shift we will discard the bits (discarding from right to left) means we are going to the bits
+a = 12
+# Binary value of 12 = 1100 
+
+# 12>>2  = 0011      ||  # Formula
+# 8 4 2 1            ||  # X>>n calculated as X/(2^n)
+# 0 0 1 1            ||  # 12/ 2^2 = 12/4 
+# Answer is 3        ||  # Answer is 3
